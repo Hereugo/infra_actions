@@ -72,4 +72,4 @@ jobs:
           sudo docker pull hereugo/infra_actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 8000:8000 hereugo/infra_actions
+          sudo docker run --rm -d -p 8080:8080 hereugo/infra_actions
